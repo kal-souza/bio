@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="600" viewBox="0 0 480 600" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">Simple black-and-white portrait placeholder for an academic webpage.</desc>
+  <rect x="0" y="0" width="480" height="600" fill="white" stroke="black" stroke-width="4"/>
+  <circle cx="240" cy="190" r="78" fill="none" stroke="black" stroke-width="4"/>
+  <path d="M112 438c20-92 92-138 128-138s108 46 128 138" fill="none" stroke="black" stroke-width="4"/>
+  <line x1="120" y1="510" x2="360" y2="510" stroke="black" stroke-width="2"/>
+  <text x="240" y="550" text-anchor="middle" font-family="serif" font-size="24" fill="black">portrait placeholder</text>
+</svg>

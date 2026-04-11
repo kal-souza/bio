@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kauany de Souza</title>
+  <meta name="description" content="Academic webpage for Kauany de Souza">
+  <style>
+    body {
+      margin: 0 auto;
+      padding: 24px 18px 48px 18px;
+      max-width: 900px;
+      background: #ffffff;
+      color: #000000;
+      line-height: 1.45;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: underline;
+    }
+
+    header {
+      margin-bottom: 24px;
+    }
+
+    .intro {
+      display: flex;
+      align-items: flex-start;
+      gap: 24px;
+    }
+
+    .portrait {
+      width: 180px;
+      flex: 0 0 180px;
+      text-align: left;
+    }
+
+    .portrait img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #000000;
+      display: block;
+    }
+
+    .caption {
+      font-size: 0.9rem;
+      margin-top: 6px;
+    }
+
+    .profile {
+      flex: 1;
+      min-width: 0;
+      text-align: left;
+    }
+
+    h1 {
+      margin: 0 0 8px 0;
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 0 0 12px 0;
+    }
+
+    nav {
+      margin-top: 12px;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #000000;
+      margin: 20px 0;
+    }
+
+    .entry {
+      margin-bottom: 16px;
+    }
+
+    .entry-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 2px;
+    }
+
+    .title-block {
+      min-width: 0;
+    }
+
+    .role {
+      font-weight: bold;
+    }
+
+    .org {
+      margin-top: 2px;
+    }
+
+    .date {
+      white-space: nowrap;
+      margin-left: 16px;
+    }
+
+    .note {
+      margin-top: 10px;
+    }
+
+    @media (max-width: 700px) {
+      .intro {
+        display: block;
+      }
+
+      .portrait {
+        margin-bottom: 18px;
+      }
+
+      .date {
+        white-space: normal;
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Replace photo-placeholder.svg with your own portrait, or change the image file name below. -->
+
+  <header id="top">
+    <div class="intro">
+      <div class="portrait">
+        <img src="photo-placeholder.svg" alt="Portrait placeholder">
+        <div class="caption">Portrait placeholder</div>
+      </div>
+
+      <div class="profile">
+        <h1>Kauany de Souza</h1>
+
+        <p>
+          I am seeking a predoctoral research position in economics. My background combines rigorous academic training in economics with industry experience in forecasting, large-scale data analysis, and empirical modeling. My master's dissertation, <em>Bunching estimation of the male breadwinner norm in Brazil</em>, later became a publication in <em>Economics Bulletin</em>.
+        </p>
+
+        <p>
+          <strong>Email:</strong> <a href="mailto:kauany2k@gmail.com">kauany2k@gmail.com</a>
+        </p>
+
+        <nav>
+          <a href="#education">Education</a> |
+          <a href="#experience">Experience</a> |
+          <a href="#publication">Publication</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <hr>
+
+  <section id="education">
+    <h2>Education</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="title-block">
+          <div class="role">M.Sc. in Economics</div>
+          <div class="org">University of São Paulo</div>
+        </div>
+        <div class="date">2020–2022</div>
+      </div>
+      <div>GPA: 4.0/4.0; CNPq Scholarship Recipient; admitted via ANPEC, the Brazilian graduate economics admissions exam (top 1% nationally).</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="title-block">
+          <div class="role">B.Sc. in Economics</div>
+          <div class="org">University of Brasília</div>
+        </div>
+        <div class="date">2013–2017</div>
+      </div>
+      <div>GPA: 3.82/4.0; PET Scholarship Recipient.</div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="title-block">
+          <div class="role">Senior Data Scientist</div>
+          <div class="org">ReFuels - Renewable Energy Fuels B.V., The Hague, Netherlands</div>
+        </div>
+        <div class="date">Sep 2025 – Present</div>
+      </div>
+      <div>Built forecasting and operational models on large station-level datasets in Python, SQL, and Databricks, turning granular commercial data into quantitative decision support for inventory, sourcing, and network planning.</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="title-block">
+          <div class="role">Senior Data Scientist</div>
+          <div class="org">Unilever, São Paulo, Brazil</div>
+        </div>
+        <div class="date">Sep 2023 – Sep 2025</div>
+      </div>
+      <div>Built scalable cross-country forecasting and performance-analysis models that integrated sales, pricing, promotion, and external signals into reproducible analytical views for high-stakes planning and performance evaluation.</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="title-block">
+          <div class="role">Data Science Coordinator</div>
+          <div class="org">Nestlé, São Paulo, Brazil</div>
+        </div>
+        <div class="date">Jun 2022 – Sep 2023</div>
+      </div>
+      <div>Led predictive analytics for demand planning, combining model-based forecasting, KPI design, and automated reporting to improve operational decisions across supply chain and commercial teams.</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="title-block">
+          <div class="role">Research Assistant</div>
+          <div class="org">University of California, Berkeley, Remote</div>
+        </div>
+        <div class="date">May 2021 – Jul 2021</div>
+      </div>
+      <div>Developed econometric models in Python and SQL for large-scale research datasets and reproducible empirical analysis.</div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="title-block">
+          <div class="role">Technical Advisor</div>
+          <div class="org">Office of the Minister, Ministry of Finance, Brasília, Brazil</div>
+        </div>
+        <div class="date">Dec 2017 – Jan 2019</div>
+      </div>
+      <div>Produced analytical reports from large economic datasets to support planning, investment, and public policy discussions.</div>
+    </div>
+  </section>
+
+  <section id="publication">
+    <h2>Publication</h2>
+
+    <p>
+      <strong>The male breadwinner norm in Brazil.</strong><br>
+      Kauany de Souza, Fabiana Rocha, and Pedro Forquesato.<br>
+      <em>Economics Bulletin</em>, 43(4): 1759–1770, 2023.
+    </p>
+
+    <p class="note">
+      <strong>Dissertation.</strong>
+      <em>Bunching estimation of the male breadwinner norm in Brazil</em>. Using Brazilian Census data, the dissertation models the breadwinner norm as an implicit tax on women's earnings and uses bunching methods to relate the excess mass at the 50% relative-earnings threshold to labor-supply responses. It then studies robustness against alternative explanations, including coworking and self-employment, minimum-wage bunching, round-number reporting, and assortative matching. This research later became a publication in <em>Economics Bulletin</em>.
+    </p>
+  </section>
+</body>
+</html>
